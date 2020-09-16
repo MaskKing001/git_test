@@ -17,6 +17,5 @@ public class HelloWorld {
 
         System.out.println("nihao");
 
-        System.out.println("thank you");
     }
 }
