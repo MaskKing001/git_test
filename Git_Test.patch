@@ -1,0 +1,49 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- pom.xml	(date 1600234232536)
++++ pom.xml	(date 1600234232536)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>org.example</groupId>
++    <artifactId>gitTest</artifactId>
++    <version>1.0-SNAPSHOT</version>
++
++
++</project>
+\ No newline at end of file
+Index: src/main/java/com/atguigu/gittest/HelloWorld.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/com/atguigu/gittest/HelloWorld.java	(date 1600234707332)
++++ src/main/java/com/atguigu/gittest/HelloWorld.java	(date 1600234707332)
+@@ -0,0 +1,20 @@
++package com.atguigu.gittest;
++/**
++ * @author Wei Zhang
++ * @create 2020-09-16 13:31
++ */
++
++/**
++ * @author
++ * @description
++ * @date 2020/9/16
++ */
++public class HelloWorld {
++    public static void main(String[] args) {
++        System.out.println("Hello World");
++
++        System.out.println("Welcome to World");
++
++        System.out.println("nihao");
++    }
++}
