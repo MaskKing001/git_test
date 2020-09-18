@@ -11,7 +11,6 @@
 public class hello {
     public static void main(String[] args) {
         System.out.println("sout hello world");
-        System.out.println("wawawa");
 
         System.out.println("third time");
     }
