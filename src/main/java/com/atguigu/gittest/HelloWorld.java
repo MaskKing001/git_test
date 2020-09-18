@@ -1,14 +1,5 @@
 package com.atguigu.gittest;
-/**
- * @author Wei Zhang
- * @create 2020-09-16 13:31
- */
 
-/**
- * @author
- * @description
- * @date 2020/9/16
- */
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World");
@@ -19,6 +10,7 @@ public class HelloWorld {
 
         System.out.println("third time");
 
+        People people = new People("zhangsan",10);
 
 
     }
